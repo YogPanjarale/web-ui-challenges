@@ -66,6 +66,8 @@ const LoginPage = () => {
         <>
         <Head>
             <title>Login Page UI Challenge</title>
+        <link rel="icon" href="/book-logo.svg" />
+
             <MetaTags title="Login Page | Yog Panjarale" description="Day 1 promt of daily ui Login Page designed by Manav and made by Yog" image_url="https://web-ui-challenges-eight.vercel.app/owl.svg" url="https://ui.yogpanjarale.com"/>
         </Head>
 		<div className="bg-yellow-300 bg-opacity-20  flex flex-col items-center justify-center min-h-screen py-2 ">
