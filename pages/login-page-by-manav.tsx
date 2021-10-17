@@ -17,7 +17,7 @@ const LoginForm = () => {
 				<div className="w-full">
 					<input
 						className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 focus:outline-none focus:bg-white focus:border-darkgreen
-                         leading-10 text-gray-300 font-poppins text-lg font-normal"
+                         leading-10  font-poppins text-lg font-normal"
 						id="inline-full-name"
 						type="text"
 						placeholder="Your Name"
@@ -26,7 +26,7 @@ const LoginForm = () => {
 				<div className="w-full">
 					<input
 						className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 focus:outline-none focus:bg-white focus:border-darkgreen
-                        leading-10 text-gray-300 font-poppins text-lg font-normal"
+                        leading-10  font-poppins text-lg font-normal"
 						id="inline-email"
 						type="text"
 						placeholder="Email"
@@ -35,7 +35,7 @@ const LoginForm = () => {
 				<div className="w-full">
 					<input
 						className="appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 focus:outline-none focus:bg-white focus:border-darkgreen
-                         leading-10 text-gray-300 font-poppins text-lg font-normal"
+                         leading-10  font-poppins text-lg font-normal"
 						id="inline-password"
 						type="password"
 						placeholder="Password"
@@ -43,13 +43,13 @@ const LoginForm = () => {
 				</div>
 			</div>
 			<div className="inline-flex flex-col space-y-7 items-center justify-center">
-				<div className="flex flex-col items-center justify-center p-1 bg-darkgreen shadow border rounded-3xl w-full">
+				<button className="flex flex-col items-center justify-center p-1 bg-darkgreen shadow border rounded-3xl w-full hover:brightness-75 text-white font-bold focus:outline-none focus:shadow-outline">
 					<div className="inline-flex items-start justify-start p-2">
 						<p className="flex-1 h-full text-xl leading-10 text-white font-poppins">
 							Create Account
 						</p>
 					</div>
-				</div>
+				</button>
 				<div className="mx-10">
 					<p className="text-lg leading-10 font-poppins">
 						Already have an account?{" "}
