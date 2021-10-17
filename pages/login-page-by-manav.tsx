@@ -53,7 +53,7 @@ const LoginForm = () => {
 				<div className="mx-10">
 					<p className="text-lg leading-10 font-poppins">
 						Already have an account?{" "}
-						<span className="underline text-darkgreen">Login</span>
+						<a className="underline text-darkgreen" href="#">Login</a>
 					</p>
 				</div>
 			</div>
