@@ -8,7 +8,9 @@ module.exports = {
         darkgreen:"#325651"
     },
     fontFamily: {
-      poppins:['Poppins','sans-serif']
+      poppins:['Poppins','sans-serif'],
+      "clash-grotesk":['Clash Grotesk','sans-serif'],
+      "public-sans":['Public Sans','sans-serif'],
     }
 
   },
