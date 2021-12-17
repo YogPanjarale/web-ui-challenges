@@ -32,7 +32,7 @@ const Card = ({title, description, image,views,readTime}) => {
 const e = () => (
     <>
     <div className="flex justify-center items-center h-screen ">
-    <Card title="Why you should sleep now ?" description="You should sleep now cause it is very late and you should not be awake this late at night it is getting very late like 1 am so not very healty for you" image={"https://source.unsplash.com/1600x900/?sleep,night"} views="108" readTime={3}/>
+    <Card title="Why you should sleep now ?" description="You should sleep now cause it is very late and you should not be awake this late at night it is getting very late like 1 am so not very healthy for you" image={"https://source.unsplash.com/1600x900/?sleep,night"} views="108" readTime={3}/>
     </div>
     </>);
 export default e;
