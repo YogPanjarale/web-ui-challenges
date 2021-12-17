@@ -21,7 +21,7 @@ const Card = ({title, description, image,views,readTime}) => {
     </p>
   </div>
   <div className="px-6 py-2 flex flex-row text-gray-500">
-    <div className="mx-2 flex flex-row justify-center"><EyeIcon/> <span className="px-1 top-2">{views} views</span></div>
+    <div className="mr-2 flex flex-row justify-center"><EyeIcon/> <span className="px-1 top-2">{views} views</span></div>
     <div className="mx-2 flex flex-row justify-center  "><BookIcon/> 
     <span className="px-1 top-2">{readTime} min read</span></div>
   </div>
