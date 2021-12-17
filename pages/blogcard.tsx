@@ -12,7 +12,7 @@ const BookIcon = () => (
 
 const Card = ({title, description, image,views,readTime}) => {
     return (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg ">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg drop-shadow-2xl">
   <img className="w-full rounded-md" src={image} alt={image}/>
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-3 ">{title}</div>
